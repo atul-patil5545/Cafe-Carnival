@@ -1,0 +1,507 @@
+.circle {
+	/* margin-bottom: calc(100vh - 150px); */
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	box-shadow: inset 0 0 0 42px #fff, inset 0 0 0 44px #D4AF37, 0 0 0 2px #fff, 0 0 0 4px #D4AF37;
+  }
+  .col-md-8{
+  	display: inline-block;
+  	margin-left: 60px;
+  	list-style:none; 
+  }
+
+  .align-progress {            
+	  margin-top: -115px;
+	  text-align: center;
+	  font-family: 'Times New Roman';
+	  font-size: 22px;
+		  color:white;
+	  }
+
+	  
+	  .align-progress1 {
+	  margin-top: -51px;
+	  text-align: center;
+	  font-family: 'Times New Roman';
+	  font-size: 22px;
+		  color:white;
+		  margin-left:48px;
+	  }
+
+		  #showing-progress{
+	 padding: 30px;
+	 background: black;
+	 margin-top: 0px;
+ } 
+ .progress-title{
+	 color:#ddae71;
+	 font-weight: bold;
+ }
+ 
+ #intro .divider--shape-4 {
+    width: 100%;
+    height: 14px;
+    background: url(../img/shape-4.png) center no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#intro .banner--desc {
+    color: #333333;
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    padding: 0 15px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+#intro .history-panel > h6 {
+	color: #c59d5f;
+	font-family: 'Great Vibes', cursive;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-bottom: 15px;
+}
+.mainslider {
+	color: white;
+    font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top: 5%;
+}
+.mainslider11 {
+	color: white;
+    font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top: 5%;
+	font-size: 35px;
+}
+.op{
+	opacity: 0.7;
+	}
+
+
+
+
+#intro .history-panel h3 {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-bottom: 0;
+	    color: #222222;
+    font-family: 'Kaushan Script', cursive;
+}
+#underwords{
+	font-family: 'Great Vibes', cursive;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top:  0%;
+	    color: #222222;
+    
+}
+
+#intro .history-panel .divider--shape-13 {
+	margin-top: 26px;
+	margin-bottom: 24px;
+}
+#dividerbar {
+ width: auto;
+	height: 40px;
+	background: url(../img/title-decor.png) center no-repeat;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+#intro .history-panel p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	margin-bottom: 0;
+}
+#intro .divider--shape-13{
+	width: 100%;
+	height: 16px;
+	background: url(../img/shape-13.png) center no-repeat;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+#intro .alignments{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+.fontchange{
+font-family: 'Kaushan Script',cursive;
+color: white;
+
+   position: absolute;
+    bottom: 7.5rem;
+    right: 9.5rem;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-bottom: 0;
+ 
+}
+
+#down{
+	margin-top:5%; 
+}
+#slidingmenu .slick-track{
+		height: 292px;
+	}
+
+.franhead{
+ font-family: 'Kaushan Script';
+color: #ddae71;
+font-size: 45px;
+font-weight: 400;
+line-height: 1;
+
+}
+.franname{
+	 font-family: 'Great Vibes', cursive;
+	
+color: white;
+font-size: 52px;
+font-weight: 400;
+line-height: 1;
+}
+.franname1{
+ font-family: 'Kaushan Script';
+	
+color: white;
+font-size: 42px;
+font-weight: 400;
+line-height: 1;
+}
+
+#openfran{
+background-color: black;
+margin-top:2%;
+/*height: 400px;*/
+}
+
+
+
+.footer_cafe{
+	 font-family: 'Great Vibes', cursive;
+	
+color: white;
+font-size: 35px;
+font-weight: 400;
+line-height: 1;
+margin-top: -13%;
+}
+
+.ourMenuFont {
+    font-family: 'Kaushan Script', cursive;
+    color: #ddae71;
+}
+
+.visitus{
+
+	font-weight: 400 ! important;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px){
+  #intro .size{
+ font-family: 'Kaushan Script';
+color: #c59d5f;
+font-size: 45px;
+font-weight: 400;
+line-height: 1;
+margin-bottom: 25px;
+ }
+
+
+.slideroutlet0{
+	float: right;
+	margin-top: -45%;
+}
+.slideroutlet{
+	color: #c59d5f;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 29px;
+}
+.slideroutlet1{
+	color: black;
+	
+	font-weight: 400;
+	font-size:20px; 
+	line-height: 36px;
+	margin-top: 4%;
+	text-align: justify;
+}
+
+
+}
+
+
+
+@media (max-width: 766px) {
+  #intro .size{
+ font-size: 28px;
+ font-family: 'Kaushan Script', cursive;
+color: #c59d5f;
+font-weight: 400;
+line-height: 1;
+margin-bottom: 2px;
+
+ }
+.slick-track{
+	height: 281px;
+
+}
+.visitus{
+
+	font-weight: 330 ! important;
+}
+
+ #intro .banner--desc {
+    color: #333333;
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    padding: 0 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#intro .history-panel > h6 {
+	color: #c59d5f;
+	font-family: 'Great Vibes', cursive;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+#intro .history-panel h3 {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-bottom: 0;
+	    color: #222222;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#intro .history-panel .divider--shape-13 {
+	margin-top: 26px;
+	margin-bottom: 24px;
+}
+
+#intro .history-panel p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	margin-bottom: 0;
+}
+#intro .divider--shape-13, {
+	width: 100%;
+	height: 16px;
+	background: url(../img/shape-13.png) center no-repeat;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+
+#intro .alignments{
+	text-align: center;
+}
+.menu {
+	font-family: 'Kaushan Script';
+color: white;
+font-size: 30px;
+font-weight: 400;
+line-height: 1;
+
+margin-top: 70%;
+}
+
+.tophead{
+	color: navajowhite;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 29px;
+	margin-top: 5%;
+}
+
+.slideroutlet0{
+
+	margin-top: 0;
+}
+.slideroutlet{
+	color: #c59d5f;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 29px;
+	margin-top: 5%;
+}
+.slideroutlet1{
+	color: black;
+	
+	font-weight: 400;
+	font-size:17px; 
+	line-height: 32px;
+	margin-top: 5%;
+
+text-align: justify;
+}
+#slidingmenu .slick-track{
+		height: 215px;
+	}
+
+#dividerbar {
+  content: "";
+background: url(../img/title-decor.png) top center;
+background-size: contain;
+width: 291px;
+height: 28px;
+margin: 15px auto -5px
+
+
+}
+
+
+.franhead{
+ font-family: 'Kaushan Script';
+color: #ddae71;
+font-size: 40px;
+font-weight: 400;
+line-height: 1;
+
+}
+.franname{
+	 font-family: 'Great Vibes', cursive;
+	
+color: white;
+font-size: 45px;
+font-weight: 400;
+line-height: 1;
+margin-top: 10%;
+}
+.franname1{
+ font-family: 'Kaushan Script';
+	
+color: white;
+font-size: 32px;
+font-weight: 400;
+line-height: 1;
+}
+
+#openfran{
+background-color: black;
+margin-top:2%;
+height: 281px;
+}
+.fontchange{
+font-family: 'Kaushan Script',cursive;
+color: white;
+
+   position: absolute;
+    bottom: 7rem;
+    right: 3rem;
+    left: 3rem;
+    
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 0;
+ 
+}
+.ourMenuFont{
+		font-family: 'Kaushan Script', cursive;
+		color:#ddae71;
+		font-size: 36px;
+		}
+
+#underwords{
+	font-family: 'Great Vibes', cursive;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top:  0%;
+	    color: #222222;
+    
+}
+
+.op{
+	opacity: 0.8;
+	}
+
+.mainslider {
+	color: white;
+	font-size: 31px;
+    font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top:70%;
+}
+.mainslider11 {
+	color: white;
+	font-size: 22px;
+    font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top: 5%;
+	
+}
+
+.mainslider12 {
+	
+	margin-top:81%;
+}
+
+.footer_cafe1{
+	font-family: 'Great Vibes', cursive;
+	
+color: white;
+font-size: 43px;
+font-weight: 400;
+line-height: 1;
+margin-top: 20px;
+}
+.franchise_block{
+	margin-right: 5% !important;
+
+	}
+	.teast_franchise {
+	color: black;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	line-height: 29px;
+	font-size:25px;}
+	.franchise_top{
+		padding-top: 3rem !important;
+	}
+}
+@media (min-width: 770px){
+	.teast_franchise {
+		color: black;
+		font-family: 'Kaushan Script', cursive;
+		font-weight: 400;
+		font-size: 35px;
+		line-height: 50px;
+		margin-bottom: 4%;
+	}
+}

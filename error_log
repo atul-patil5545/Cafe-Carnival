@@ -1,0 +1,2 @@
+[12-Oct-2018 13:43:46 Asia/Kolkata] PHP Notice:  Undefined variable: subject in /home/keshavrajcafe/public_html/sendmail.php on line 43
+[12-Oct-2018 13:43:46 Asia/Kolkata] PHP Notice:  Undefined variable: message in /home/keshavrajcafe/public_html/sendmail.php on line 43

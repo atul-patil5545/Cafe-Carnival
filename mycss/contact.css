@@ -1,0 +1,192 @@
+#header.transparent_contact {
+    color: white;
+}
+.contact_fonts  {
+	color: white;
+    font-family: 'Kaushan Script', cursive;
+	font-size: 35px;
+	font-weight: 400;
+}
+
+#contact_opacity {
+	background-color: #0e090e !important;
+}
+
+div.stars {
+    width: 135px;
+    display: block;
+    margin-left: -5px;
+}
+input.star {
+    display: none;
+}
+
+label.star{
+    float: right;
+    padding: 6px;
+    font-size: 16px;
+    color: #bbc4c6;
+    transition: all .2s;
+}
+
+label {
+    font-weight: 400;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+}
+input.star-1:checked ~ label.star:before {
+    color: #F62;
+}
+label.star:before {
+    content: '\f005';
+    font-family: FontAwesome;
+}
+
+#success, #error {
+    display: none;
+  }
+
+/* 
+  contact us page */
+
+
+
+ #contact-form input[type="email"], #contact-form input[type="password"],  #contact-form input[type="text"], #contact-form input[type="tel"] {
+    box-shadow: none;
+    height: 48px;
+    outline: none;
+    font-size: 17px;
+  }
+  
+#contact-form input[type="email"]:focus, #contact-form input[type="password"]:focus, #contact-form input[type="text"]:focus, #contact-form input[type="tel"]:focus, #contact-form textarea[input="text"]:focus {
+    box-shadow: none;
+    border: 1.5px solid black !important;
+    font-weight: bold;
+}
+  
+  .form-control {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #655E7A;
+  }
+  
+  #contact-form .form-group {
+    margin-bottom: 25px;
+}
+
+#contact-form .block .form-group {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+#contact-form .block .form-group .form-control {
+  background:white;
+  height: 60px;
+  border: 1px solid gray;
+  box-shadow: none;
+  width: 100%;
+}
+
+#contact-form .form-group-2 {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+#contact-form  .form-group-2 textarea {
+  background: white;
+  height: 135px;
+  border: 1px solid gray;
+  box-shadow: none;
+  width: 100%;
+  font-size: 17px;
+  
+}
+
+#contact-form .block button {
+  width: 100%;
+  height: 60px;
+  background: #47424C;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.address-block li {
+  margin-bottom: 10px;
+}
+
+.address-block li i {
+  margin-right: 15px;
+  font-size: 20px;
+  width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+@media screen and (min-width: 760px) {
+#contact_opacity .demo{
+margin-top: 8.25rem !important;
+}
+#rotation{
+	    background-position-y: 20.1155% !important;
+}
+}
+
+@media screen and (max-width: 758px) {
+.contact_fonts  {
+	color: white;
+    font-family: 'Kaushan Script', cursive;
+	font-size: 23px;
+	font-weight: 400;
+
+}
+
+#contact-form input[type="email"], #contact-form input[type="password"],  #contact-form input[type="text"], #contact-form input[type="tel"] {
+    font-size: 15px;
+  }
+
+}
+/*
+
+.contact_margin{
+margin-top: 10px;
+}
+
+@media screen and (min-width: 760px) {
+#content .bg-large{
+height: 325%;
+}
+#rotation{
+	    background-position-y: 18.1155% !important;
+opacity: 0.8  !important;
+}
+#divsize{
+height: 350px;
+}
+
+}
+
+@media screen and (max-width: 758px) {
+#rotation{
+opacity: 0.8  !important;
+}*/

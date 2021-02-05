@@ -1,0 +1,403 @@
+
+#header.transparent_contact {
+    color: white;
+}
+.contact_fonts  {
+	color: white;
+    font-family: 'Kaushan Script', cursive;
+	font-size: 35px;
+	font-weight: 400;
+}
+
+#contact_opacity {
+	background-color: #0e090e !important;
+}
+
+
+.member{
+	animation-delay: 0.25s;
+	-webkit-animation-duration: 0.25s;	
+}
+
+.main-title{
+	transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
+}
+
+.member.a{
+	animation-delay: 0.5s;
+	-webkit-animation-duration: 0.5s;	
+}
+
+.member.b{
+	animation-delay: 0.75s;
+	-webkit-animation-duration: 0.75s;	
+}
+
+.member.c{
+	animation-delay: 1s;
+	-webkit-animation-duration: 1s;	
+}
+
+.member .image-mask{
+	position:relative;
+	overflow:hidden;
+}
+
+.member .image-mask img { 
+	transition: all 0.2s linear;
+}
+
+.member .image-mask .job-position{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;	
+	opacity: 0;
+    background-color: rgba(255,255,255, 0.7); 
+    transition: all 0.3s ease-in-out;
+}
+
+.member .image-mask:hover img { 
+    transform: scale(1.1);
+}
+ 
+.member .image-mask:hover .job-position { 
+    opacity: 1;
+}
+
+.team h5 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.team h6{
+	position:relative;
+	color:#fff;
+	font-size:18px;
+	letter-spacing:0.3px;
+	display:table;	
+	margin: 45% auto 0;
+	padding:10px 14px;
+}
+
+.team h6:before{
+	position:absolute;
+	content:'';
+	top:6px;
+	left:-6px;
+	width:60%;
+	height:100%;
+	background-color:#3498db;
+	z-index:-2;
+}
+
+.team h6:after{
+	position:absolute;
+	content:'';
+	top:6px;
+	left:-6px;
+	width:60%;
+	height:100%;
+	background:black;
+	opacity:0.5;
+	z-index:-2;
+}
+
+.team h6 span{
+	display: inline-block;
+	transform: skew(15deg);
+    -o-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -webkit-transform: skew(15deg);
+}
+
+.team ul.social{
+ 	margin: 15px 0 0;
+}
+
+.team ul.social li {
+    display: table-cell;
+}
+
+.team ul.social li a {
+    border: medium none;
+    color: #404040;
+    font-size: 14px;
+	margin-right:12px;
+}
+
+.main-content.container{
+	padding:60px 15px;
+}
+
+.all-members{
+	margin-bottom:65px;
+}
+
+.tooltip {
+	display: inline;
+	position: relative;
+	z-index: 999;
+	opacity:1;
+}
+
+.tooltip-content {
+	position: absolute;
+	z-index: 9999;
+	width: 45px;
+	padding:1px 0;
+	left: 50%;
+	margin-left: -23px;
+	bottom: 100%;
+	border-radius: 5px;
+	color: #fff;
+	opacity: 0;
+	margin-bottom: 20px;
+	cursor: default;
+	pointer-events: none;
+}
+
+.tooltip:hover .tooltip-content{
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
+	transform: translate3d(0,0,0) scale3d(1,1,1);	
+}
+
+.tooltip-effect .tooltip-content {
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.tooltip-content:before {
+    border-color: #8AC245 transparent transparent transparent;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    display: block;
+    height: 0;
+    left: 50%;
+    position: absolute;
+    top: 19px;
+    width: 0;
+    margin-left: -6px;
+}
+
+	#teamdividerbar {
+		width: auto;
+		height: 40px;
+		background: url(../img/title-decor.png) center no-repeat;
+		margin-bottom: 25px;
+		margin-top: -18px;
+	}
+
+
+
+#Catalogue p{
+    font-size: 14px;
+  }
+  #Catalogue h2{
+    text-align: center;
+    margin-top: 56px;
+  }
+  
+  #CataloguePadding{
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .btn-small {
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+  
+  .btn-round {
+    border-radius: 4px;
+  }
+
+
+.btn-round-full {
+  border-radius: 50px;
+}
+
+  .btn-main, .btn-transparent, .btn-small {
+    background: #655E7A;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 14px 35px;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: all 0.2s ease;
+  }  
+
+
+
+  #intro .banner--desc1 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+    padding: 15px 15px;
+    margin-bottom:85px;
+}
+
+#plus1{
+	text-align: center;
+	margin-left: 26%;
+	margin-top: -22%;
+}
+
+
+.ourMenuFont{
+	font-family: 'Kaushan Script', cursive;
+	color:#ddae71;
+	font-size: 45px;
+	}
+
+
+
+#team .directornames{
+	font-size: 21px;
+	text-align: center;
+	padding-top: 25px;
+}
+#team .directorwords{
+	font-size: 18px;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 22. RESPONSIVE DESIGN ***/
+
+@media screen and (max-width: 991px) {
+/************************* */
+/* Team */
+/************************* */
+
+.member{
+	margin-bottom:40px;
+}
+
+.member .member-content{
+	text-align:center;
+}
+
+.team ul.social{
+	display:table;
+	margin:0 auto;
+}
+
+.team .btn{
+	margin-top:0;
+}
+
+.animated,
+.member,
+.member.a,
+.member.b,
+.member.c {
+  -webkit-animation-duration: 0s;
+  animation-duration: 0s;
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none;
+}
+
+
+#teamdividerbar {
+	content: "";
+  background: url(../img/title-decor.png) top center;
+  background-size: contain;
+  width: 291px;
+  height: 28px;
+  margin: -20px auto 30px
+  
+  
+  }
+
+.upperspace{
+	margin-top: 55px;
+}
+
+
+}
+
+.carousel-item img{
+	background-position: center; 
+	text-align: center; 
+	height: 340px; 
+	width: 100%;
+}
+.carousel-item p{
+	margin: 20px 50px;
+	line-height: 2rem;
+	font-size: 17px;
+}
+.carousel-item h3{
+	margin: 30px 140px;
+	
+}
+
+@media screen and (min-width: 760px) {
+	#contact_opacity .demo{
+	margin-top: 8.25rem !important;
+	}
+	#rotation{
+			background-position-y: 20.1155% !important;
+	}
+
+
+	}
+	
+	@media screen and (max-width: 758px) {
+	.contact_fonts  {
+		color: white;
+		font-family: 'Kaushan Script', cursive;
+		font-size: 23px;
+		font-weight: 400;
+	
+	}
+	
+	#intro .banner--desc1 {
+		color: #333333;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 32px;
+		padding: 0 15px;
+		margin-bottom: 55px;
+		text-align: center;
+	}
+	
+	#plus1{
+		margin-top: -43px !important;
+	}
+	
+	#team .directornames{
+		font-size: 19px;
+		padding-top: 20px;
+	}
+
+	}
+
+
+

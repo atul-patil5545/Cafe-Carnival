@@ -1,0 +1,147 @@
+.teast {
+	color: #c59d5f;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top: 5%;
+}
+.teast1 {
+	color: black;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	line-height: 29px;
+	margin-top: 2%;
+}
+.divider--shape-5 {
+    width: 100%;
+    height: 14px;
+    background: url(../img/shape-4.png) center no-repeat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.right{
+	text-align: right;
+}
+
+.menu {
+	font-family: 'Kaushan Script';
+color: white;
+font-size: 45px;
+font-weight: 400;
+line-height: 1;
+margin-bottom: 25px;
+margin-top: 12px;
+}
+
+#Burgers .title,#Desserts .title,#Drinks .title{
+	    font-family: 'Kaushan Script', cursive;
+
+}
+#menuBurgersContent h3,#menuDessertsContent h3,#menuDrinksContent h3{
+	font-family: 'Great Vibes', cursive;
+	
+}
+	 .ourMenuFont{
+		font-family: 'Kaushan Script', cursive;
+		color:#ddae71;
+		font-size: 45px;
+		}
+
+
+
+
+  
+@media (min-width: 768px){
+   
+  #menuDessertsContent img{
+          width: 100%;
+          height:230px;
+          
+      }
+      #menuBurgersContent img{
+          width: 100%;
+          height:230px;
+      }
+      #menuDrinksContent img{
+          width: 100%;
+          height:230px;	
+      }
+          .margin{
+      margin-top: 1.5rem !important;
+      }
+  
+           
+  
+  
+  }
+  
+  
+  
+  @media (max-width: 766px) {
+   
+      #menuDessertsContent img{
+          width: 100%;
+          height:130px;	
+      }
+  
+      #menuBurgersContent img{
+          width: 100%;
+          height:130px;	
+      }
+  
+      #menuDrinksContent img{
+          width: 100%;
+          height:130px;	
+      }
+   .margin{
+          margin-top: 1rem !important;
+          }
+  
+  .menu {
+      font-family: 'Kaushan Script';
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1;
+  
+  margin-top: 70%;
+  }
+  
+  .page-content{padding-top:2rem;padding-bottom:2rem}
+  
+  .teast {
+      color: #c59d5f;
+      font-family: 'Great Vibes', cursive;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 29px;
+  
+  }
+  .teast1 {
+      color: black;
+      font-family: 'Kaushan Script', cursive;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 29px;
+  
+  }
+  .tophead{
+      color: navajowhite;
+      font-family: 'Kaushan Script', cursive;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 29px;
+      margin-top: 5%;
+  }
+ 
+  .footer_cafe1{
+	font-family: 'Great Vibes', cursive;
+	
+color: white;
+font-size: 43px;
+font-weight: 400;
+line-height: 1;
+margin-top: 20px;
+}
+  
+  }      
